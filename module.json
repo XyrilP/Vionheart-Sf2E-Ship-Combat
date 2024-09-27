@@ -1,0 +1,89 @@
+{
+  "id": "vionheart-sf2e-ship-combat",
+  "title": "Vionheart Sf2E Ship Combat",
+  "manifest": "",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "starfinder-field-test-for-pf2e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Homebrew Ship Combat for Sf2E, heavily inspired by FTL: Faster than Light!",
+  "authors": [
+    {
+      "name": "Xyril P.",
+      "discord": "xyrilp.",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "vionheart-ship-combat-spaceships",
+      "label": "Vionheart Ship Combat Spaceships",
+      "path": "packs/vionheart-ship-combat-spaceships",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "vionheart-ship-combat-journals",
+      "label": "Vionheart Ship Combat Journals",
+      "path": "packs/vionheart-ship-combat-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "vionheart-ship-combat-spaceship-systems",
+      "label": "Vionheart Ship Combat Spaceship Systems",
+      "path": "packs/vionheart-ship-combat-spaceship-systems",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "flags": {
+    "vionheart-sf2e-ship-combat": {
+      "pf2e-homebrew": {
+		  "featTraits": {
+			  "ship": "Ship",
+			  "system": "System",
+			  "subsystem": "Subsystem",
+			  "manned": "Manned"
+        },
+			"weaponTraits": {
+				"ship": "Ship",
+				"power-1": "Power 1",
+				"power-2": "Power 2",
+				"power-3": "Power 3",
+				"power-4": "Power 4"
+			}
+	  }
+    }
+  }
+}
