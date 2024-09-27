@@ -1,7 +1,8 @@
 {
   "id": "vionheart-sf2e-ship-combat",
   "title": "Vionheart Sf2E Ship Combat",
-  "manifest": "",
+  "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
   "version": "1.0",
   "compatibility": {
     "minimum": "12",
