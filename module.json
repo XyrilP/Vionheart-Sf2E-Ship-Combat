@@ -39,28 +39,39 @@
       "label": "Vionheart Ship Combat Spaceships",
       "path": "packs/vionheart-ship-combat-spaceships",
       "type": "Actor",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "vionheart-ship-combat-journals",
       "label": "Vionheart Ship Combat Journals",
       "path": "packs/vionheart-ship-combat-journals",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "vionheart-ship-combat-spaceship-systems",
       "label": "Vionheart Ship Combat Spaceship Systems",
       "path": "packs/vionheart-ship-combat-spaceship-systems",
       "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-ship-combat-playlists",
+      "label": "Vionheart Ship Combat Playlists",
+      "path": "packs/vionheart-ship-combat-playlists",
+      "type": "Playlist",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -71,20 +82,20 @@
   "flags": {
     "vionheart-sf2e-ship-combat": {
       "pf2e-homebrew": {
-		  "featTraits": {
-			  "ship": "Ship",
-			  "system": "System",
-			  "subsystem": "Subsystem",
-			  "manned": "Manned"
+        "featTraits": {
+          "ship": "Ship",
+          "system": "System",
+          "subsystem": "Subsystem",
+          "manned": "Manned"
         },
-			"weaponTraits": {
-				"ship": "Ship",
-				"power-1": "Power 1",
-				"power-2": "Power 2",
-				"power-3": "Power 3",
-				"power-4": "Power 4"
-			}
-	  }
+        "weaponTraits": {
+          "ship": "Ship",
+          "power-1": "Power 1",
+          "power-2": "Power 2",
+          "power-3": "Power 3",
+          "power-4": "Power 4"
+        }
+      }
     }
   }
 }
