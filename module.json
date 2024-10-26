@@ -3,7 +3,7 @@
   "title": "Vionheart Sf2E Ship Combat",
   "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
-  "version": "1.1",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -79,6 +79,26 @@
       "system": "pf2e"
     }
   ],
+          "packFolders": [
+        {
+            "name": "Vionheart Content",
+            "color": "#C864C8",
+            "sorting": "a",
+            "folders": [
+                {
+                    "name": "Ship Combat",
+                    "sorting": "a",
+                    "color": "#3232C8",
+                    "packs": [
+						"vionheart-ship-combat-spaceships",
+						"vionheart-ship-combat-journals",
+						"vionheart-ship-combat-spaceship-systems",
+						"vionheart-ship-combat-playlists"
+                    ]
+                }
+            ]
+        }
+    ],
   "flags": {
     "vionheart-sf2e-ship-combat": {
       "pf2e-homebrew": {
