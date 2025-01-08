@@ -3,7 +3,7 @@
   "title": "Vionheart Sf2E Ship Combat",
   "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -102,11 +102,15 @@
   "flags": {
     "vionheart-sf2e-ship-combat": {
       "pf2e-homebrew": {
+		"creatureTraits": {
+		  "ship": "Ship"
+		},
         "featTraits": {
           "ship": "Ship",
           "system": "System",
           "subsystem": "Subsystem",
-          "manned": "Manned"
+          "manned": "Manned",
+		  "ship-augmentation": "Ship Augmentation"
         },
         "weaponTraits": {
           "ship": "Ship",
