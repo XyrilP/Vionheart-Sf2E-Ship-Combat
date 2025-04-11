@@ -3,7 +3,7 @@
   "title": "Vionheart Sf2E Ship Combat",
   "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
-  "version": "1.1.3",
+  "version": "2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -109,15 +109,29 @@
           "ship": "Ship",
           "system": "System",
           "subsystem": "Subsystem",
+		  "systemless": "Systemless",
           "manned": "Manned",
 		  "ship-augmentation": "Ship Augmentation"
         },
+		"equipmentTraits": {
+		  "ship": "Ship",
+          "system": "System",
+          "subsystem": "Subsystem",
+		  "systemless": "Systemless",
+          "manned": "Manned",
+		  "ship-augmentation": "Ship Augmentation"
+		},
         "weaponTraits": {
           "ship": "Ship",
           "power-1": "Power 1",
           "power-2": "Power 2",
           "power-3": "Power 3",
-          "power-4": "Power 4"
+          "power-4": "Power 4",
+		  "unmounted": "Unmounted",
+		  "mounted-forward": "Mounted (Forward)",
+		  "mounted-starboard": "Mounted (Starboard)",
+		  "mounted-aft": "Mounted (Aft)",
+		  "mounted-port": "Mounted (Port)"
         }
       }
     }
