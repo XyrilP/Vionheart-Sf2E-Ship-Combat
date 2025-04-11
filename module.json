@@ -57,9 +57,9 @@
       }
     },
     {
-      "name": "vionheart-ship-combat-spaceship-systems",
-      "label": "Vionheart Ship Combat Spaceship Systems",
-      "path": "packs/vionheart-ship-combat-spaceship-systems",
+      "name": "vionheart-ship-combat-spaceship-creation",
+      "label": "Vionheart Ship Combat Spaceship Creation",
+      "path": "packs/vionheart-ship-combat-spaceship-creation",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -72,6 +72,17 @@
       "label": "Vionheart Ship Combat Playlists",
       "path": "packs/vionheart-ship-combat-playlists",
       "type": "Playlist",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-ship-combat-macros",
+      "label": "Vionheart Ship Combat Macros",
+      "path": "packs/vionheart-ship-combat-macros",
+      "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -79,59 +90,95 @@
       "system": "pf2e"
     }
   ],
-          "packFolders": [
+  "packFolders": [
+    {
+      "name": "Vionheart Content",
+      "color": "#c864c8",
+      "sorting": "a",
+      "folders": [
         {
-            "name": "Vionheart Content",
-            "color": "#C864C8",
-            "sorting": "a",
-            "folders": [
-                {
-                    "name": "Ship Combat",
-                    "sorting": "a",
-                    "color": "#3232C8",
-                    "packs": [
-						"vionheart-ship-combat-spaceships",
-						"vionheart-ship-combat-journals",
-						"vionheart-ship-combat-spaceship-systems",
-						"vionheart-ship-combat-playlists"
-                    ]
-                }
-            ]
+          "name": "Ship Combat",
+          "sorting": "a",
+          "color": "#3232c8",
+          "packs": [
+            "vionheart-ship-combat-spaceships",
+            "vionheart-ship-combat-journals",
+            "vionheart-ship-combat-spaceship-creation",
+            "vionheart-ship-combat-playlists",
+			"vionheart-ship-combat-macros"
+          ],
+          "folders": []
         }
-    ],
+      ],
+      "packs": []
+    }
+  ],
   "flags": {
     "vionheart-sf2e-ship-combat": {
       "pf2e-homebrew": {
-		"creatureTraits": {
-		  "ship": "Ship"
-		},
+        "creatureTraits": {
+          "ship": "Ship"
+        },
         "featTraits": {
           "ship": "Ship",
+		  "bp-1": "BP 1",
+		  "bp-2": "BP 2",
+		  "bp-3": "BP 3",
+		  "bp-4": "BP 4",
+		  "bp-5": "BP 5",
+		  "bp-6": "BP 6",
+		  "bp-7": "BP 7",
+		  "bp-8": "BP 8",
           "system": "System",
           "subsystem": "Subsystem",
-		  "systemless": "Systemless",
+          "systemless": "Systemless",
           "manned": "Manned",
-		  "ship-augmentation": "Ship Augmentation"
+          "ship-augmentation": "Ship Augmentation",
+          "phase-engineering": "Phase (Engineering)",
+          "phase-helm": "Phase (Helm)",
+          "phase-gunnery": "Phase (Gunnery)"
         },
-		"equipmentTraits": {
-		  "ship": "Ship",
+        "equipmentTraits": {
+          "ship": "Ship",
+		  "bp-1": "BP 1",
+		  "bp-2": "BP 2",
+		  "bp-3": "BP 3",
+		  "bp-4": "BP 4",
+		  "bp-5": "BP 5",
+		  "bp-6": "BP 6",
+		  "bp-7": "BP 7",
+		  "bp-8": "BP 8",
           "system": "System",
           "subsystem": "Subsystem",
-		  "systemless": "Systemless",
+          "systemless": "Systemless",
           "manned": "Manned",
-		  "ship-augmentation": "Ship Augmentation"
-		},
+          "ship-augmentation": "Ship Augmentation",
+          "phase-engineering": "Phase (Engineering)",
+          "phase-helm": "Phase (Helm)",
+          "phase-gunnery": "Phase (Gunnery)"
+        },
         "weaponTraits": {
           "ship": "Ship",
           "power-1": "Power 1",
           "power-2": "Power 2",
           "power-3": "Power 3",
           "power-4": "Power 4",
-		  "unmounted": "Unmounted",
-		  "mounted-forward": "Mounted (Forward)",
-		  "mounted-starboard": "Mounted (Starboard)",
-		  "mounted-aft": "Mounted (Aft)",
-		  "mounted-port": "Mounted (Port)"
+		  "bp-1": "BP 1",
+		  "bp-2": "BP 2",
+		  "bp-3": "BP 3",
+		  "bp-4": "BP 4",
+		  "bp-5": "BP 5",
+		  "bp-6": "BP 6",
+		  "bp-7": "BP 7",
+		  "bp-8": "BP 8",
+          "unmounted": "Unmounted",
+          "mounted-forward": "Mounted (Forward)",
+          "mounted-starboard": "Mounted (Starboard)",
+          "mounted-aft": "Mounted (Aft)",
+          "mounted-port": "Mounted (Port)",
+          "phase-engineering": "Phase (Engineering)",
+          "phase-helm": "Phase (Helm)",
+          "phase-gunnery": "Phase (Gunnery)"
         }
       }
     }
