@@ -3,11 +3,11 @@
   "title": "Vionheart Sf2E Ship Combat",
   "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
-  "version": "2.0",
+  "version": "9.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
   },
   "relationships": {
     "systems": [
@@ -17,15 +17,20 @@
         "compatibility": {}
       }
     ],
-    "requires": [
+    "recommends": [
       {
         "id": "starfinder-field-test-for-pf2e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {}
       }
     ]
   },
-  "description": "Homebrew Ship Combat for Sf2E, heavily inspired by FTL: Faster than Light!",
+  "description": "<p>Homebrew Ship Combat for Sf2E, heavily inspired by FTL: Faster than Light!</p>",
   "authors": [
     {
       "name": "Xyril P.",
@@ -83,11 +88,11 @@
       "label": "Vionheart Ship Combat Macros",
       "path": "packs/vionheart-ship-combat-macros",
       "type": "Macro",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "packFolders": [
@@ -105,7 +110,7 @@
             "vionheart-ship-combat-journals",
             "vionheart-ship-combat-spaceship-creation",
             "vionheart-ship-combat-playlists",
-			"vionheart-ship-combat-macros"
+            "vionheart-ship-combat-macros"
           ],
           "folders": []
         }
@@ -121,14 +126,18 @@
         },
         "featTraits": {
           "ship": "Ship",
-		  "bp-1": "BP 1",
-		  "bp-2": "BP 2",
-		  "bp-3": "BP 3",
-		  "bp-4": "BP 4",
-		  "bp-5": "BP 5",
-		  "bp-6": "BP 6",
-		  "bp-7": "BP 7",
-		  "bp-8": "BP 8",
+          "power-1": "Power 1",
+          "power-2": "Power 2",
+          "power-3": "Power 3",
+          "power-4": "Power 4",
+          "bp-1": "BP 1",
+          "bp-2": "BP 2",
+          "bp-3": "BP 3",
+          "bp-4": "BP 4",
+          "bp-5": "BP 5",
+          "bp-6": "BP 6",
+          "bp-7": "BP 7",
+          "bp-8": "BP 8",
           "system": "System",
           "subsystem": "Subsystem",
           "systemless": "Systemless",
@@ -136,18 +145,20 @@
           "ship-augmentation": "Ship Augmentation",
           "phase-engineering": "Phase (Engineering)",
           "phase-helm": "Phase (Helm)",
-          "phase-gunnery": "Phase (Gunnery)"
+          "phase-gunnery": "Phase (Gunnery)",
+          "ship-drone": "Drone",
+          "solus": "Solus"
         },
         "equipmentTraits": {
           "ship": "Ship",
-		  "bp-1": "BP 1",
-		  "bp-2": "BP 2",
-		  "bp-3": "BP 3",
-		  "bp-4": "BP 4",
-		  "bp-5": "BP 5",
-		  "bp-6": "BP 6",
-		  "bp-7": "BP 7",
-		  "bp-8": "BP 8",
+          "bp-1": "BP 1",
+          "bp-2": "BP 2",
+          "bp-3": "BP 3",
+          "bp-4": "BP 4",
+          "bp-5": "BP 5",
+          "bp-6": "BP 6",
+          "bp-7": "BP 7",
+          "bp-8": "BP 8",
           "system": "System",
           "subsystem": "Subsystem",
           "systemless": "Systemless",
@@ -155,7 +166,9 @@
           "ship-augmentation": "Ship Augmentation",
           "phase-engineering": "Phase (Engineering)",
           "phase-helm": "Phase (Helm)",
-          "phase-gunnery": "Phase (Gunnery)"
+          "phase-gunnery": "Phase (Gunnery)",
+          "ship-drone": "Drone",
+          "solus": "Solus"
         },
         "weaponTraits": {
           "ship": "Ship",
@@ -163,14 +176,14 @@
           "power-2": "Power 2",
           "power-3": "Power 3",
           "power-4": "Power 4",
-		  "bp-1": "BP 1",
-		  "bp-2": "BP 2",
-		  "bp-3": "BP 3",
-		  "bp-4": "BP 4",
-		  "bp-5": "BP 5",
-		  "bp-6": "BP 6",
-		  "bp-7": "BP 7",
-		  "bp-8": "BP 8",
+          "bp-1": "BP 1",
+          "bp-2": "BP 2",
+          "bp-3": "BP 3",
+          "bp-4": "BP 4",
+          "bp-5": "BP 5",
+          "bp-6": "BP 6",
+          "bp-7": "BP 7",
+          "bp-8": "BP 8",
           "unmounted": "Unmounted",
           "mounted-forward": "Mounted (Forward)",
           "mounted-starboard": "Mounted (Starboard)",
@@ -178,7 +191,9 @@
           "mounted-port": "Mounted (Port)",
           "phase-engineering": "Phase (Engineering)",
           "phase-helm": "Phase (Helm)",
-          "phase-gunnery": "Phase (Gunnery)"
+          "phase-gunnery": "Phase (Gunnery)",
+          "ship-drone": "Drone",
+          "solus": "Solus"
         }
       }
     }
