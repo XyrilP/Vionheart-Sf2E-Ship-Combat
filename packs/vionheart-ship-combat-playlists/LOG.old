@@ -1,3 +1,7 @@
-2025/11/24-17:35:28.167 1e40 Recovering log #1215
-2025/11/24-17:35:28.213 1e40 Delete type=0 #1215
-2025/11/24-17:35:28.213 1e40 Delete type=3 #1214
+2026/11/05-19:39:25.994 3ab8 Recovering log #1395
+2026/11/05-19:39:26.136 3ab8 Delete type=0 #1395
+2026/11/05-19:39:26.137 3ab8 Delete type=3 #1394
+2026/11/05-20:36:39.291 4d08 Level-0 table #1399: started
+2026/11/05-20:36:39.291 4d08 Level-0 table #1399: 0 bytes OK
+2026/11/05-20:36:39.352 4d08 Delete type=0 #1397
+2026/11/05-20:36:39.422 4d08 Manual compaction at level-0 from '!folders!BEl4uJlGef6upEUv' @ 72057594037927935 : 1 .. '!playlists.sounds!x3Qmlwl0u342iKhS.vP2iKSq0OJF2B7FG' @ 0 : 0; will stop at (end)

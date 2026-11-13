@@ -1,3 +1,7 @@
-2025/11/24-17:35:28.088 2524 Recovering log #1400
-2025/11/24-17:35:28.138 2524 Delete type=0 #1400
-2025/11/24-17:35:28.138 2524 Delete type=3 #1399
+2026/11/05-19:39:25.639 6ac8 Recovering log #1583
+2026/11/05-19:39:25.788 6ac8 Delete type=0 #1583
+2026/11/05-19:39:25.788 6ac8 Delete type=3 #1582
+2026/11/05-20:36:39.470 4d08 Level-0 table #1587: started
+2026/11/05-20:36:39.470 4d08 Level-0 table #1587: 0 bytes OK
+2026/11/05-20:36:39.505 4d08 Delete type=0 #1585
+2026/11/05-20:36:39.699 4d08 Manual compaction at level-0 from '!folders!DJfRcgaa4MMK5Y1O' @ 72057594037927935 : 1 .. '!items!zWliea3GRG2t6TIe' @ 0 : 0; will stop at (end)

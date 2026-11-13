@@ -3,16 +3,21 @@
   "title": "Vionheart Sf2E Ship Combat",
   "download": "https://github.com/XyrilP/Vionheart-Sf2E-Ship-Combat/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/XyrilP/Vionheart-Sf2E-Ship-Combat/refs/heads/main/module.json",
-  "version": "10",
+  "version": "12",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13",
-    "maximum": "13"
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
       {
         "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "sf2e",
         "type": "system",
         "compatibility": {}
       }
@@ -48,7 +53,20 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+	{
+      "name": "vionheart-ship-combat-spaceships-causodes",
+      "label": "Vionheart Ship Combat Spaceships (Causodes)",
+      "path": "packs/vionheart-ship-combat-spaceships-causodes",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ship-combat-journals",
@@ -59,7 +77,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ship-combat-spaceship-creation",
@@ -70,7 +89,20 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+    {
+      "name": "vionheart-ship-combat-spaceship-creation-causodes",
+      "label": "Vionheart Ship Combat Spaceship Creation (Causodes)",
+      "path": "packs/vionheart-ship-combat-spaceship-creation-causodes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ship-combat-playlists",
@@ -81,7 +113,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ship-combat-macros",
@@ -92,7 +125,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -107,8 +141,10 @@
           "color": "#3232c8",
           "packs": [
             "vionheart-ship-combat-spaceships",
+			"vionheart-ship-combat-spaceships-causodes",
             "vionheart-ship-combat-journals",
             "vionheart-ship-combat-spaceship-creation",
+            "vionheart-ship-combat-spaceship-creation-causodes",
             "vionheart-ship-combat-playlists",
             "vionheart-ship-combat-macros"
           ],
